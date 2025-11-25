@@ -199,5 +199,5 @@ city1.listVehicles();
 // Direct removal of a vehicle from the city
 city1.removeVehicle( bike );
 city1.listVehicles();
-console.log( cityList );
+console.log("Cities:",cityList.map(city => city.name));
 console.log( '--- End of Test ---' );
