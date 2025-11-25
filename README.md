@@ -2,6 +2,10 @@
 
 A TypeScript project modeling the organizational structure of Moove, a shared micromobility service. It focuses on the interactions between users, vehicles, and cities.
 
+## Demo
+The project is available on CodePen:
+[https://codepen.io/Simone-Camerano/pen/zxqpOjv](https://codepen.io/Simone-Camerano/pen/zxqpOjv)
+
 ## Features
 - Centralized management of vehicles, users, and cities
 - Robust booking and return logic
@@ -26,3 +30,4 @@ A TypeScript project modeling the organizational structure of Moove, a shared mi
 
 ## License
 MIT
+
