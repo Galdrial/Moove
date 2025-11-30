@@ -85,7 +85,7 @@ class Vehicle implements IVehicle {
       console.log( `Cannot remove vehicle ${ vehicle.type } (ID: ${ vehicle.id }): it is currently booked by ${ vehicle.assignedUser.firstName } ${ vehicle.assignedUser.lastName }.` );
       return;
     }
-    // Remove from city
+    
     const idx = city.vehicles.indexOf( vehicle );
     if ( idx !== -1 ) city.vehicles.splice( idx, 1 );
     vehicle.status = VehicleStatus.Removed;
@@ -168,8 +168,8 @@ const scooter = new Vehicle( VehicleType.Scooter );
 const eScooter = new Vehicle( VehicleType.EScooter );
 
 // Create users
-const user1 = new User( 'Simone', 'Camerano', 'camerano@gmail.com', 'Bancomat' );
-const user2 = new User( 'Luca', 'Rossi', 'rossi@gmail.com', 'PayPal' );
+const user1 = new User( 'Simone', 'Camerano', 'camerano@example.com', 'Bancomat' );
+const user2 = new User( 'Luca', 'Rossi', 'rossi@example.com', 'PayPal' );
 
 // Add vehicles to cities
 city1.addVehicle( bike );
