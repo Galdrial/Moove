@@ -13,12 +13,16 @@ The project is available on CodePen:
 - Example usage and test logic
 
 ## Getting Started
-1. Install [Node.js](https://nodejs.org/) and [TypeScript](https://www.typescriptlang.org/).
-2. Compile TypeScript:
+1. Install [Node.js](https://nodejs.org/).
+2. Install dependencies:
    ```bash
-   tsc
+   npm install
    ```
-3. Run the output JavaScript file:
+3. Compile TypeScript:
+   ```bash
+   npm run build
+   ```
+4. Run the output JavaScript file:
    ```bash
    node app.js
    ```

@@ -1,0 +1,26 @@
+{
+  "name": "moove",
+  "version": "1.0.0",
+  "description": "A TypeScript project modeling the organizational structure of Moove, a shared micromobility service. It focuses on the interactions between users, vehicles, and cities.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "verify": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galdrial/Moove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Galdrial/Moove/issues"
+  },
+  "homepage": "https://github.com/Galdrial/Moove#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
